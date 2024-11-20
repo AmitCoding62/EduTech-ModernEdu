@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edutech-The Modern Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/css/uikit.min.css" />
+</head>
+
+<body>
+    <div class="nav">
+        <div class="welcome-nav">
+            <div class="logo">
+                <div class="sidebar">
+                    <button class="uk-button uk-button-default side-logo" type="button" style="border: none; padding: 0;"><img src="Assets/Hamburger.svg" class="hamburger"></button>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li><a href="#">My Profile</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Teacher</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="student_test.html">Test</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="ask.html">Ask</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Message</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Assignment</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Material</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">IDE</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Settings</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="welcome.html">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="Assets/Favicon.png">
+                <p class="logo-txt1">EduTech</p>
+            </div>
+            <div class="home">
+                <a href="welcome.html">Home</a>
+            </div>
+            <div class="rhs-nav">
+                <div class="mode">
+                    <button class="uk-button uk-button-default" type="button">Theme</button>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; animate-out: true">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li><a href="#">Light Mode</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Dark Mode</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="test-webpage">
+        <div class="test-intro">
+            <div class="test-time">
+                <div class="test-desc">
+                    <h2>Test</h2>
+                    <p>Subject : Operating System</p>
+                    <p>Provided By : Teacher Name</p>
+                    <p>Maximum Marks : 35</p>
+                    <p>Total Time : 50min</p>
+                    <p>Date : 21/11/2024</p>
+                </div>
+                
+                <div class="time-limit">
+                    <img src="Assets/clock.png">
+                    <p>TIME LEFT :</p>
+                    <p>39:25</p>
+                    <P>MIN</P>
+                </div>
+            </div>
+            <div class="ques-analysis">
+                <div class="aspirant-info">
+                    <div class="profile"><img src="Assets/Profile.png"></div>
+                    <div class="info">
+                        <div class="name-year">
+                            <p>Amit Prajapati</p>
+                            <p id="year">2nd Year</p>
+                        </div>
+                        <p>123456</p>
+                        <p>BCA</p>
+                        <p>Section - A</p>
+                    </div>
+                </div>
+                <div class="info-line">.</div>
+                <div class="analysis">
+                    <h3>Question Analysis</h3>
+                    <div class="answered">
+                        <div class="circle"></div>
+                        <p>Answered - 3</p>
+                        <div class="line"></div>
+                        <div class="circle2 circle">.</div>
+                        <p>Unanswered - 7</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="box">1</div>
+                        <div class="box">2</div>
+                        <div class="box">3</div>
+                        <div class="box">4</div>
+                        <div class="box">5</div>
+                        <div class="box">6</div>
+                        <div class="box">7</div>
+                        <div class="box">8</div>
+                        <div class="box">9</div>
+                        <div class="box">10</div>
+                    </div>
+                </div>
+                <button>Submit Test</button>
+            </div>
+        </div>
+        <div class="questions">
+            <div class="ques-type1">
+                <legend>Question 1</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ques-type2">
+                <legend>Question 2</legend>
+                <p>What is Operating System ?</p>
+                <div class="answer">
+                    <textarea name="answer" id="answer" placeholder="Write your answer here..."></textarea>
+                </div>
+            </div>
+            <div class="ques-type1">
+                <legend>Question 3</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ques-type1">
+                <legend>Question 4</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ques-type1">
+                <legend>Question 5</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ques-type1">
+                <legend>Question 6</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ques-type2">
+                <legend>Question 7</legend>
+                <p>What is Operating System ?</p>
+                <div class="answer">
+                    <textarea name="answer" id="answer" placeholder="Write your answer here..."></textarea>
+                </div>
+            </div>
+            <div class="ques-type2">
+                <legend>Question 8</legend>
+                <p>What is Operating System ?</p>
+                <div class="answer">
+                    <textarea name="answer" id="answer" placeholder="Write your answer here..."></textarea>
+                </div>
+            </div>
+            <div class="ques-type1">
+                <legend>Question 9</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ques-type1">
+                <legend>Question 10</legend>
+                <p>What is Operating System ?</p>
+                <div class="option">
+                    <div class="input">
+                        <input type="radio" name="option" id="option1">
+                        <label for="option1">Option 1</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option2">
+                        <label for="option2">Option 2</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option3">
+                        <label for="option3">Option 3</label>
+                    </div>
+                    <div class="input">
+                        <input type="radio" name="option" id="option4">
+                        <label for="option4">Option 4</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Include UIKit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.27/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
